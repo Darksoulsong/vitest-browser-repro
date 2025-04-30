@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { render } from "../../../tests/test-utils"; // Use our custom render
-import { SimpleMui } from "../SimpleMui";
+import { SimpleMui } from "@/components/SimpleMui"; // Use alias here
 
 describe("<SimpleMui />", () => {
   it("renders initial count and increments on button click", async () => {
